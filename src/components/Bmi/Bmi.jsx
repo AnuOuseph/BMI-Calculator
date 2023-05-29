@@ -1,10 +1,17 @@
+/* eslint-disable react/prop-types */
 /* eslint-disable no-unused-vars */
-import React from 'react'
+import React, { useState } from 'react'
+import './Bmi.css'
 
-function Bmi() {
+function Bmi({bmi,bmiType}) {
+ 
   return (
-    <div>
-      <h4>BMI: </h4>
+    <div className='col-md-12 text-center m-0'>
+      <div className='bmi  m-5 p-4'>
+        <h5>Your BMI Score !</h5>
+        <h4>{bmi}</h4>
+        <h4>{bmiType}</h4>
+      </div>
     </div>
   )
 }

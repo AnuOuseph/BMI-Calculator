@@ -1,3 +1,10 @@
-.heading{
+
+/* .heading{
   text-align: center;
+} */
+.container{
+  overflow-x: hidden;
+}
+.body{
+  background-color: #f0f0f0;
 }

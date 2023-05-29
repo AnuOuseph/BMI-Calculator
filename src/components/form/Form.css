@@ -1,9 +1,11 @@
 .form{
     text-align: center;
-    border: 1px solid black;
-    padding-top: 20px;
+    background-color: #ffc7c8;
+    border-radius: 20px;
+    padding-top: 30px;
     padding-bottom: 20px;
     margin-top: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 .label{
     font-size: 1rem;
@@ -12,4 +14,21 @@
 .heading{
     margin-bottom: 20px;
     margin-top: 20px;
+}
+.w-input{
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+}
+.h-input{
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+}
+.btn{
+    border: none;
+    margin-top: 10px;
+    border-radius: 30px;
+    background-color: #222;
+    color: #fff;
 }
